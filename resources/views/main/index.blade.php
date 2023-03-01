@@ -183,7 +183,7 @@
                         @foreach($products as $product)
                         <!-- Product -->
                         <div class="product">
-                            <div class="product_image"><img src="images/mouse_1_1.jpg" alt=""></div>
+                            <div class="product_image"><img src="images/product_2.jpg" alt=""></div>
                             <div class="product_extra product_new"><a href="categories.html">New</a></div>
                             <div class="product_content">
                                 <div class="product_title"><a href="product.html">{{$product->name}}</a></div>
