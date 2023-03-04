@@ -7,7 +7,6 @@
                 <i class="nav-icon fas fa-th"></i>
                 <p>
                     Продукты
-                    <span class="badge badge-info right">{{$product->count()}}</span>
                 </p>
             </a>
         </li>
