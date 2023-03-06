@@ -1,4 +1,4 @@
 @extends('layouts.admin')
 @section('content')
-    <h1>Welcome to Admin Panel</h1>
+    <h1>Добро пожаловать в админ панель!</h1>
 @endsection

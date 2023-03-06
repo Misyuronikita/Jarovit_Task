@@ -19,10 +19,13 @@ Route::get('/', [\App\Http\Controllers\ProductController::class, 'index'])->name
 Route::get('/admin/main', [\App\Http\Controllers\Admin\MainController::class, 'index'])
               ->name('admin.main');
 
-Route::get('/admin/product', [\App\Http\Controllers\Admin\ProductController::class, 'index'])
+Route::get('/admin/products', [\App\Http\Controllers\Admin\ProductController::class, 'index'])
                 ->name('admin.product.index');
 
-Route::get('/admin/product/create', [\App\Http\Controllers\Admin\ProductController::class, 'create'])
-    ->name('admin.product.create');
+Route::get('/admin/products/create', [\App\Http\Controllers\Admin\ProductController::class, 'create'])
+                ->name('admin.product.create');
+
+Route::post('/admin/products', [\App\Http\Controllers\Admin\ProductController::class, 'store'])
+                ->name('admin.product.store');
 
 
